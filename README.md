@@ -12,7 +12,21 @@ To knit the R Markdown file, you will need to cd into the folder *INFO550_Assign
 make -f Makefile
 ```
 
+Or you can simply type:
+
+```r
+make
+```
+
 The output will be saved as /Rmd/report.html.
+
+Because I just want to practice the usage of dependency, this report also produced the chart shown on class using the dependency at the very end of the report:
+
+```r
+figs/barchart.png
+```
+
+You can explore the makefile to see how it is placed there.
 
 ## Data
 The data used in this project is provided by Kaggle competition "[RSNA-MICCAI Brain Tumor

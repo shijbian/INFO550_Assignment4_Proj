@@ -417,3 +417,11 @@ mean_359 %>%
 
 ```
 
+
+## Figure
+
+We made a great figure!
+
+```{r, echo = FALSE}
+knitr::include_graphics(here::here("figs", "barchart.png"))
+```
